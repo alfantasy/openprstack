@@ -9,3 +9,4 @@ if cat /proc/cpuinfo 2>/dev/null | egrep -q "(vmx|smv)"; then
 else
 	echo -e "${GREEN}Аппаратная виртуализация не поддерживается системой или отключена. Включите и перезапустите систему${NC}"
 fi
+
